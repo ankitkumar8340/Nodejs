@@ -1,6 +1,6 @@
-
+import {users} from "../models/userModel.js"
 const getUser = (req, res)=>{
-    res.send("Hello world")
+    res.send(users)  //user is json
 }
 
 const postUser = (req, res)=>{
