@@ -3,7 +3,7 @@ import express from "express"
 const app = express();
 const num1 = process.argv[2];
 const num2 = process.argv[3];
-const PORT = process.agrv[2];
+const PORT = num1;
 
 app.listen(PORT, ()=>{
     console.log("server is running");
